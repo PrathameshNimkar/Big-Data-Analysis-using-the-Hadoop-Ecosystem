@@ -29,7 +29,8 @@ In the GIF just above, we see a file broken into blocks and each block replicate
 
 <br></br>
 ## <b>Storage and Replication Architecture</b>
-![Alt Text](Images/Storage_and_Replication_Architecture.png?raw=true "Storage and Replication Architecture")
+
+![Alt Text](/Images/Storage_and_Replication_Architecture.png?raw=true "Storage and Replication Architecture")
 <br></br>
 
 Hadoop Distributed File System (HDFS) follows a Master — Slave architecture, wherein, the ‘Name Node’ is the master and the ‘Data Nodes’ are the slaves/workers. This simply means that the name node monitors the health and activities of the data node. The data node is where the file is actually stored in blocks.
@@ -86,7 +87,13 @@ The name node (NN) metadata consists of two persistent files, namely, FsImage �
 <br></br>
 <b>Namespace & FsImage</b>
 
-In every file system, there is a path to the required files — `On Windows: C:\Users\username\learning\BigData\namenode.txt and on Unix: /usr/username/learning/BigData/namenode.txt.`
+In every file system, there is a path to the required files —
+
+```
+On Windows: C:\Users\username\learning\BigData\namenode.txt and
+on Unix: /usr/username/learning/BigData/namenode.txt.
+```
+
 HDFS follows the Unix way of namespace. This namespace is stored as part of the FsImage. Every detail of the file i.e. who, what, when, etc. is also stored in the FsImage snapshot. The FsImage is stored on the disk for consistency, durability and security.
 
 <br></br>
@@ -128,7 +135,8 @@ The minimum number for QJN to function is 3 and the quorum/majority is determine
 ```
 Q = (N+1)/2
 where N = total number of Journal Nodes
-For example, if we have N=5, the quorum/majority would be established by (5+1)/2 i.e. 3. The metadata change would be written to 3 journal nodes.
+For example, if we have N=5, the quorum/majority would be established by (5+1)/2 i.e. 3.
+The metadata change would be written to 3 journal nodes.
 ```
 
 The QJN is the preferred Production method of metadata sync as it is also “highly available”. In the event of a failure of any of the QJ nodes, any of the remaining nodes are available to provide the required data to maintain metadata sync. Thus, the standby already has all the relevant information to continue “business as usual” post fail-over.
