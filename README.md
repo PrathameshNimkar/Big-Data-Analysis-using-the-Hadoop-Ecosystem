@@ -5,7 +5,7 @@ I've created a set of tutorials for you to begin your journey into the Big Data 
 If you're new to data engineering within the Hadoop Ecosystem, you've come to the right place!
 
 <br></br>
-![Screenshot](Big_Data_Analytics_Pipeline.png "Big Data Analytics Pipeline")
+![Screenshot](Images/Big_Data_Analytics_Pipeline.png "Big Data Analytics Pipeline")
 <br></br>
 
 The above image is the pipeline I'll be using/following for my upcoming tutorials on Big Data analytics using the Hadoop Ecosystem. To begin with, let’s learn about the architectures of each individual system/tool.
@@ -16,12 +16,12 @@ If you're new to Big Data, I highly recommend to go through the below (in order)
 
 <br></br>
 
-## <b>Tutorial List:</b>
+## <b>Tutorials:</b>
 
 1. Hadoop Distributed File System (HDFS)
-    - [Comprehensive Guide](Data_Storeage/HDFS/Comprehensive_Guide.md)
-    - [HDFS Commands](Data_Storeage/HDFS/Commands.md)
-    - [HDFS Erasure Coding](Data_Storeage/Erasure_Coding.md)
+    - [Comprehensive Guide](Data_Storage/HDFS/Comprehensive_Guide.md)
+    - [HDFS Commands](Data_Storage/HDFS/Commands.md)
+    - [HDFS Erasure Coding](Data_Storage/Erasure_Coding.md)
 2. [Sqoop](Data_Ingestion/Sqoop.md)
 3. [Flume](Data_Ingestion/Flume.md)
 4. [MapReduce](Data_Processing/MapReduce.md)
@@ -39,3 +39,5 @@ Lastly:
 - If you'd like to contribute, feel free to submit a pull request.
 - If you'd like for me to address a specific topic in further detail, do not hesitate to connect with me.
 <br></br>
+
+Originally published on my Medium account [here](https://medium.com/@prathamesh.nimkar/big-data-analytics-using-the-hadoop-ecosystem-411d629084d3)
