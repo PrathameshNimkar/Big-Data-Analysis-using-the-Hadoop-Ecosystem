@@ -45,7 +45,7 @@ So a file of size 500 MB requires a total storage capacity in HDFS of 1500 MB du
 ---
 Now’s a good time as any to get some hands on:
 
-[HDFS Commands](Data_Storage/HDFS/Commands.md)
+[HDFS Commands](/Data_Storage/HDFS/Commands.md)
 
 ---
 
