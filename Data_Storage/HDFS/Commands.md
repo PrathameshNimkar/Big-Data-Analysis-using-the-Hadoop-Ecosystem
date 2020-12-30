@@ -174,13 +174,13 @@ Visit this page [here](/Supporting_Docs/Commands_The-GUI-Way.md)
 
 The Homepage — https://www.adsbexchange.com/
 
-The data — https://history.adsbexchange.com/downloads/samples/
+The data — https://www.adsbexchange.com/data/#
 
 While you can go ahead and download any zipped file, I have chosen to go with the last one, i.e. unzip 2020–01–01.zip. (Latest Data + Latest fields)
 
 More details on the fields can be found [here](https://www.adsbexchange.com/legacy-datafields/).
 
-Explanation with some data? [Here you go](/Supporting_Docs/ata_Fields_Description.md).
+Explanation with some data? [Here you go](/Supporting_Docs/Data_Fields_Description.md).
 
 These datasets are free of cost, without any need for registration/password, but please be sure to give the appropriate credit.
 
